@@ -1,0 +1,7 @@
+---
+
+roles:
+  - name:  linux-system-roles.firewall
+    src: https://github.com/linux-system-roles/firewall
+    version: 4c4a1343ac0afc74e98d7c583e9258b29131fe55
+#    version: dd6bdeb025197aa390254fa17985e7aab1f76978 # (latest)

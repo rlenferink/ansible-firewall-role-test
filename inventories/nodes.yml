@@ -1,0 +1,8 @@
+---
+
+firewall_nodes:
+  hosts:
+    rocky810:
+      ansible_host: 192.168.5.9
+    rocky94:
+      ansible_host: 192.168.5.10

@@ -1,0 +1,9 @@
+---
+
+- name: Test node availability
+  hosts: all
+  gather_facts: true
+  tasks:
+    - name: Show hostname
+      debug:
+        msg: "{{ ansible_hostname }}"
